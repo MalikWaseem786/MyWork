@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="grey"><a href="tut3.html">Go to html2</a>
+    <form action="tut2.html">
+        <fieldset>
+            <legend style="color: brown; font-weight;: bold">Personal Information</legend>
+            <table>
+                <tr>
+                        <td width="50"><label>Name:</label></td>
+                        <td ><input type="text"  maxlength="15" required placeholder="Enter your Name"/></td>        
+                </tr>
+                <tr>
+                    <td width="50"><label>Email:</label></td>
+                    <td><input type="text" maxlength="15" required placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td width="50"><label>Phone:</label></td>
+                    <td><input type="text" maxlength="15" placeholder="Enter your Phone"></td>
+                </tr>
+                <tr>
+                    <td width="50"><label>Address</label></td>
+                    <td><textarea cols="30" style="resize: ;"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Country:</label></td>
+                    <td>
+                        <select>
+                            <option value="Pakistan">Pakistan</option>
+					        <option value="Usa">Usa</option>
+					        <option value="Uae">Uae</option>
+					        <option value="China">China</option>
+                            <option value="Select">-----Select Country-----</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+
+            </table>
+        </fieldset>
+      
+        <fieldset><legend style="color: brown; font-weight: bold;">General Information</legend>
+           <table>
+               <tr>
+                   <th>I would you like more information about Following tours</th>
+               </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox"/>Backpack Cal <br>
+                        <input type="checkbox"/>California <br>
+                        <input type="checkbox"/>America <br>
+                    </td>
+                    <td>
+                        <input type="checkbox"/> Las Vegas <br>
+                        <input type="checkbox"/>New York <br>
+                        <input type="checkbox"/>Los Angles <br>
+                    </td>
+                </tr>
+           </table>    
+        </fieldset>
+        <fieldset>
+            <legend style="border: 3px solid black; border-radius: 8px;"><label style="color: brown; font-style: italic; font-weight: bolder;">Comments</label></legend>
+            <br>
+            <p>Anything would youlike to say about our website</p><br>
+
+            <table>
+                <tr>
+                    <th>
+                        <textarea cols="100" rows="10"></textarea>
+                    </th>
+                </tr>
+            </table>
+
+        </fieldset>
+        <br>
+        <p>We don't spam or share your information with anyone else. Read our <a href="Privacy.html"" target="_blank">privacy policy></a></p>
+        <input type="submit" value="Send"/><button><a href="home.html">Go to Home</a></button>
+    </form>
+</body>
+</html>
